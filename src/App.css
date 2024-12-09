@@ -40,6 +40,10 @@
   border: none;
 }
 
+.search-bar:focus {
+  outline: none;
+}
+
 .search-button{
   background: rgb(255, 187, 0);
   border:none;
@@ -84,6 +88,28 @@ button:hover {
 
 .recipe-card h2 {
   font-size: 18px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.pagination-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.pagination-button:hover {
+  background-color: #0056b3;
 }
 
 @media screen and (max-width: 768px) {
