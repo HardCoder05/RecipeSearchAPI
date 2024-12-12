@@ -21,7 +21,7 @@
     font-weight: 200;
   }
 
-  h3{
+  h2{
     font-size: 20px;
     font-weight: 100;
   }
@@ -86,7 +86,7 @@ button:hover {
   transition: transform 0.5s;
 }
 
-.recipe-card h2 {
+.recipe-card h3 {
   font-size: 18px;
 }
 
@@ -124,8 +124,9 @@ button:hover {
       text-align: center;
     }
 
-    h3{
+    h2{
       font-size: 15px;
+      text-align: center;
     }
   }
 }
